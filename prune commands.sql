@@ -1,0 +1,5 @@
+DELETE FROM co_command WHERE message LIKE '%fill%' 
+		OR message LIKE '%setblock%' 
+		OR message LIKE '%kill%'
+		OR message LIKE '%data modify%' 
+		OR message LIKE '%execute%' 
